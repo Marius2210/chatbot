@@ -14,6 +14,7 @@ const responses = {
     "clubes": "Hay varios clubes y actividades extracurriculares disponibles. Visita el edificio de actividades estudiantiles para más información.",
     "fin de semana": "Este fin de semana hay un torneo de fútbol y una noche de cine al aire libre. ¡No te lo pierdas!",
     "alimentación": "En el campus hay varias opciones de alimentación, incluyendo cafeterías, food trucks y restaurantes.",
+    "universidad": "Sobre la universidad puedes preguntarme sobre el calendario académico, horarios de clases, inscripción, biblioteca, servicios estudiantiles, eventos, estrés, discapacidades, tutoría, pasantías, currículum, entrevistas, clubes, fin de semana, alimentación y más.",
     "default": "No entiendo la pregunta. ¿Puedes ser más específico?",
   };
   

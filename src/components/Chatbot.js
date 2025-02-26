@@ -24,6 +24,10 @@ const Chatbot = () => {
     
     const lowerText = text.toLowerCase();
 
+    if(lowerText.includes("hola") || lowerText.includes("buenos días") ||  lowerText.includes("buenos dias") || 
+    lowerText.includes("buenas tardes") || lowerText.includes("buenas noches")) {
+        return "¡Hola! ¿En qué puedo ayudarte?";
+    }
    
     for (const key in responses) {
       if (lowerText.includes(key)) {
@@ -37,8 +41,8 @@ const Chatbot = () => {
 
   return (
     <div className="chatbot-container">
-      <h2 className="chatbot-title">Chatbot Estudiantil</h2> {/* Título */}
-      <p className="chatbot-description">¿En qué puedo ayudarte?</p> {/* Descripción */}
+      <h2 className="chatbot-title">Chatbot Estudiantil</h2> {}
+      <p className="chatbot-description">¿En qué puedo ayudarte?</p> {}
       <div className="messages">
         {messages.map((msg, index) => (
           <Message key={index} text={msg.text} sender={msg.sender} />
